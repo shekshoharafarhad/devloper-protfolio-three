@@ -1,0 +1,54 @@
+/* common sherd styles */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* nav realated styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    border: 0;
+    padding: 18px 35px;
+}
