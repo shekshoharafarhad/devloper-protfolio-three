@@ -23,6 +23,10 @@ body {
     font-size: 45px;
     font-weight: 800;
 }
+.www{
+    justify-content: center;
+    align-items: center;
+}
 
 nav>ul {
     display: flex;
@@ -31,7 +35,6 @@ nav>ul {
 nav li {
     list-style: none;
     margin-right: 50px;
-    align-items: center;
 }
 
 nav a {
@@ -52,6 +55,14 @@ nav a {
     color: white;
     border: 0;
     padding: 18px 35px;
+}
+.fa-solid{
+    padding-right: 10px;
+}
+.trans{
+    background-color: transparent;
+    color: #FD6E0A;
+    border:3px solid #FD6E0A;
 }
 
 /* header related styles */
