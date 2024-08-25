@@ -202,6 +202,39 @@ main section {
     font-weight: 400;
     width: 500px;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px;
+}
+
+.cv {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+/* footer styles */
+footer {
+    display: flex;
+    padding: 100px 100px;
+    background-color: #FFF8F3;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"],.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 345px 18px 30px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #757575;
+    border: 0;
+}
+.ww{
+    height: 180px;
 }
